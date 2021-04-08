@@ -1,0 +1,210 @@
+---
+title: "Suprasegmental information cues <br/>morphological anticipation <br/>during L1/L2 lexical access"
+subtitle: "Nuria Sagarra and Joseph V. Casillas"
+author: "Presented by Jiawei Shao"
+institute: "Rutgers University"
+output:
+  xaringan::moon_reader:
+    css: [default, rutgers, rutgers-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+class: title-slide-section-grey, center, middle
+
+# **.white[Summary of the study]**
+---
+# **Summary of the study**
+
+--
+
+This is a comprehension study on whether and how do **Spanish monolinguals** and **.blue[Spanish learners]** use **.black[suprasegmental information]** to predict **.black[morphological components]**.
+
+--
+
+In this study, the **.black[suprasegmental information]** under investigation is the **.black[stress]** of a word.
+
+--
+
+The **.black[morphological]** component of a word under investigation here is the **.black[suffix]**.
+
+--
+
+###Examples:
+- cambia-cambió  
+((s)he changes-changed)
+
+- Stressed syllable: CAMbia-camBIÓ 
+
+---
+# **Summary of the study**
+
+
+--
+
+**Spanish monolinguals** vs **.blue[late learners]**(L1 English, beginner or advance)
+
+--
+
+###DQ:
+
+--
+
+1. Do **Spanish monolinguals**  use stress cues to anticipate suffixes to make lexical predictions?
+Eyetracking task + gating task
+
+--
+
+2. Do **.blue[beginning and advanced English learners of Spanish]** use stress cues to anticipate suffixes to make lexical predictions?
+Eyetracking task + gating task
+
+--
+
+3. Does WM influence **Spanish monolinguals** and **.blue[English-Spanish late learners’]** ability to use stress to anticipate suffixes to make lexical predictions?
+WM task
+
+---
+class: title-slide-section-grey, center, middle
+
+# **.white[Analysis]**
+
+---
+# Analysis
+
+### Eye-tracking task
+Participants listened to audio stimuli when looking at visual stimuli that consist of 2 words on each side of the screen, they should choose the word as soon as they hear it.  
+- Participants groups: Spanish monolinguals(SS), advanced learners(LA), beginners(LB)
+- Stress type: paroxitone(cAmbia), Oxytone(cambiÓ)
+- Measure: fixation time 
+
+**.black[One-sided t-test]**
+- The first analysis is an one-sided t-test for eye-tracking data for proportion of target fixations at the offset of oxytone and paroxytone target syllables.
+- Object: to determine whether or not the participants were able to predict the morphology of the target word above chance.
+- μ: 50%
+- Alternative hypothesis :target fixations weren't greater than μ. 
+-Alpha was bonferroni corrected (0.05 / 6=0.008) to avoid family-wise error.
+
+---
+background-image: url(pics/table_1.png)
+background-position: 93% 40%
+background-size: 400pt
+
+# Analysis
+
+### Eye-tracking task  
+
+**.black[One-sided t-test]**: Presentation of results
+
+- The results are concluded in Table 1
+- There's detailed and accurate written results  
+included in the work.
+- It was suggested by the analysis that neither of  
+the learner gourps (LA, LB) fixated on the targets  
+above chance at their a priori adjusted alpha level.  
+It is an accurate interpretation.
+
+**.black[One-sided t-test]**: Comments
+
+The object in this analysis is to test if the results (fixation time) of each group of participants were by chance. A significance test was required to fulfill this aim. A one-tailed test is a statistical test in which the critical area of a distribution is one-sided so that it is either greater than or less than a certain value, but not both. It is a great choice to use this test here for this study.
+---
+background-image: url(pics/figure_1.png)
+background-position: 50% 98%
+background-size: 600pt
+
+# Analysis
+
+### Eye-tracking task  
+
+**.black[New stuff]** 
+
+- A GLMM(generalized linear fixed effects models) analysis and a GCA(Growth Curve Analysis) analysis were carried out following the t-test. As we haven't covered these two topics in class, they are new analysis to me. 
+- In GLMM analysis, the purpose was to test if the fixation time can be fit as a function of participant group, syllable structure, stress and WM(working memory). In the analysis it was concluded that there were no main effects of stress or WM, nor were there any higher order interaction.
+- In both GCA and GLMM analysis, several figures were included(figure 2 for GLMM and figure 3,4 for GCA), and they helped me to understand the unfamiliar analysis.
+
+---
+# Analysis
+
+### Gating task  
+
+Participants listened to audio stimuli when looking at visual stimuli that consist of 2 words on each side of the screen, they should choose the word as soon as they are able to guess the word. The audio stimuli will stop on the offset of the first syllable of the target word.  
+- Same participants
+- Measure: accuracy of the prediction
+
+
+**.black[One-sided t-test]**
+- The first analysis is an one-sided t-test mirroring the one we've seen in eyetracking task.
+- Object: to determine whether or not the each group of the participants were able to predict the morphology of the target word above the chance.
+- μ: 50%
+- Alternative hypothesis :target fixations weren't greater than μ. 
+-Alpha was bonferroni corrected (0.05 / 6=0.008) to avoid family-wise error.
+
+
+---
+background-image: url(pics/table_2.png)
+background-position: 93% 28%
+background-size: 400pt
+
+# Analysis
+
+### Gating task  
+
+**.black[One-sided t-test]**: Presentation of results
+
+- The results are concluded in Table 2
+- There's detailed and accurate written results  
+included in the work.
+- It was suggested by the analysis that the LA and SS groups were able to accurately predict the morphology of the target items in the paroxytone condition. The LB group did not predict the target morphology above chance for either condition. 
+- An marginally significant result was also included: the LB group was more accurate responding to paroxytone targets than oxytone targets but not significantly above chance at their adjusted alpha level.
+
+**.black[One-sided t-test]**: Comments
+
+The object in this analysis is to test if the results (accurately predict the target word) of each group of participants were by chance. As in the comment for the same kind of analysis in eyetracking task, it is a great choice to use this test here for this study.
+
+
+---
+background-image: url(pics/figure_2.png)
+background-position: 50% 98%
+background-size: 620pt
+
+# Analysis
+
+### Gating task  
+
+**.black[New stuff]** 
+
+- A GLMM(generalized linear fixed effects models) analysis was carried out following the t-test, that we haven't covered yet in class two topics. 
+- The objective of the GLMM analysis of the gating data was to determine if response accuracy varied as a function of the fixed effects group (SS, LA, LB), stress (oxytone, paroxytone), syllable structure (CV, CVC) and standardized WM scores.
+- A binomial linking function was used due to the categorical nature of the outcome(correct or incorrect). It is a great choice of linking function.
+- One table and one figure including 3 plots were included, and they helped me to understand the unfamiliar analysis.
+
+---
+class: title-slide-section-grey, center, middle
+
+# **.white[General comments]**
+---
+# General comments
+
+The data analysis of the current study is complex. In each analysis the information of how the data was trimmed and analyzed was given in detail, together with clear tables and figures to help understand the analysis.
+
+### Other likes that I'd like to mention
+
+- In the preparation stage there was t-test run in order to group the participants, as the researchers found that each the participants showed different proficiency.
+- In stimuli design there was also t-test included as to rule out the possible unrelated variable of word frequency. The t-test revealed that there was no significant differences in frequency between the two conditions.
+- Even for the part of the data analysis that we haven't covered, the analysis was give in a clear and detailed style, so that we still can get important information of why they did those analysis and what were the implications of the results.
+
+---
+class: title-slide-final, middle
+
+
+# The end
+
+
